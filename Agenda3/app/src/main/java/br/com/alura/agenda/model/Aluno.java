@@ -1,6 +1,6 @@
 package br.com.alura.agenda.model;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import java.io.Serializable;
 
@@ -48,7 +48,7 @@ public class Aluno implements Serializable {
     @NonNull
     @Override
     public String toString() {
-        return nome;
+        return nome + " - " + telefone;
     }
 
     public void setId(int id) {
